@@ -1,0 +1,8 @@
+# Force all .ino or .cpp files to be detected as C++
+*.ino linguist-language=C++
+*.cpp linguist-language=C++
+*.h linguist-language=C++
+
+# Ignore folders that aren't your actual code (e.g., libraries you didn't write)
+libraries/* linguist-vendored
+docs/* linguist-documentation
